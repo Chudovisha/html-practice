@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Libre+Baskerville&display=swap');
+:root {
+    font-family:'DotGothic16', sans-serif;
+    --main-color: #eb8634;
+    --accent-color: #9c9189;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#home {
+    color: var(--main-color);
+    background-color: var(--accent-color);
+}
+
+header#home nav .menu a::before {
+    content: "<";
+
+}
+
+header#home nav .menu a::after {
+    content: ">";
+
+}
+
+.logo {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: blue;
+}
+
+
+footer {
+    color: red;
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+.product-list > article > p::first-line {
+    font-weight: bold;
+}
+
+.product-list article img {
+    border: 1px solid blueviolet;
+    padding: 40px;
+    width: 100%;
+    display: block;
+    background-color: coral;
+    box-sizing: border-box;
+}
